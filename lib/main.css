@@ -7,6 +7,7 @@ header {
   top: 0;
   left: 0;
   z-index: 2;
+  border-bottom: 6px solid #ccc;
 }
 
 .container {
@@ -50,7 +51,12 @@ header {
   color: #999;
 }
 
+#imagem-loja {
+  max-height: 405px;
+}
+
 footer {
+  border-top: 6px solid #ccc;
   background-color: #fff;
   padding: 4px;
 }
