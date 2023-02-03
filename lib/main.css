@@ -27,6 +27,17 @@ header {
   text-align: center;
 }
 
+#botao-modal {
+  background-color: #198754;
+  padding: 7px 13px;
+  color: white;
+}
+
+#botao-modal:hover {
+  background-color: #157347;
+
+}
+
 #nossas-lojas{
   margin-top: 64px;
   margin-bottom: 64px;
