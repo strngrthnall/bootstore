@@ -188,13 +188,13 @@
 
   <div class="modal" id="modal-contato" data-bs-backdrop="static">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <form class="modal-content" id="formulario">
         <div class="modal-header">
           <h5>Entre em contato</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
-          <div class="row" id="formulario">
+          <div class="row">
             <div class="col-6">
               <label class="form-label" for="nome">Nome:</label>
               <input name="nome" class="form-control form-control-md" type="text" id="nome" placeholder="Nome Completo" required>
@@ -206,8 +206,10 @@
             <div class="col">
               <label class="form-label" for="email">Email:</label>
               <input name="email" class="form-control form-control-md" type="text" id="email" placeholder="seu@email.com" required>
-              <label class="form-label" for="mensagem">Sua mensagem:</label>
-              <textarea id="mensagem" class="form-control form-control-md" placeholder="Escreva aqui sua mensagem"></textarea>
+              <div id="container-mensagem">
+                <label class="form-label" for="mensagem">Sua mensagem:</label>
+                <textarea id="mensagem" class="form-control form-control-md" placeholder="Escreva aqui sua mensagem"></textarea>
+              </div>
               <div id="switch-confirma" class="form-check form-switch">
                 <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
                 <input name="checkbox" type="checkbox" id="aceito-termos" class="form-check-input" required>
@@ -216,10 +218,10 @@
           </div>
         </div>
         <div class="modal-footer">
-          <Button type="submit" class="btn btn-success">Enviar</Button>
-          <Button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</Button>
+          <button type="submit" class="btn btn-success">Enviar</button>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
         </div>
-      </div>
+      </form>
     </div>
   </div>
 
