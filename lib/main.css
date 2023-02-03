@@ -61,3 +61,20 @@ footer {
   background-color: #fff;
   padding: 4px;
 }
+
+#mensagem {
+  resize: none;
+}
+
+#switch-confirma, #container-mensagem {
+  margin-top: 8px
+}
+
+.erro {
+  border: 1px solid red;
+}
+
+#email-error, #telefone-error, #nome-error, #checkbox-error {
+  color: red;
+  font-weight: bolder;
+}
